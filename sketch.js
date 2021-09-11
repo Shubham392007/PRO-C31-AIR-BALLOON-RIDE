@@ -16,7 +16,7 @@ function preload() {
 function setup() {
   database = firebase.database();
   console.log(database);
-  createCanvas(1280, 640);
+  createCanvas(1200, 600);
 
   balloon = createSprite(250, 450, 150, 150);
   balloon.addAnimation("hotAirBalloon", balloonImage1);
@@ -75,7 +75,7 @@ function draw() {
   fill(0);
   stroke("white");
   textSize(25);
-  text("By SHUBHAM SM",1250,60)
+  text("By SHUBHAM SM",1050,60)
 }
 
 function updatePosition(x, y) {
