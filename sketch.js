@@ -16,7 +16,7 @@ function preload() {
 function setup() {
   database = firebase.database();
   console.log(database);
-  createCanvas(1200, 600);
+  createCanvas(1280, 60);
 
   balloon = createSprite(250, 450, 150, 150);
   balloon.addAnimation("hotAirBalloon", balloonImage1);
